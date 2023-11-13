@@ -1,0 +1,10 @@
+id,email_id,email_subject,email_body,resume_path
+1,applicant4@example.com,Application for Software Engineer C++ Position,"Dear Hiring Manager,
+I am writing to express my strong interest in the Software Engineer C++ position at your company. My name is Sarah Davis, and I have a solid background in C++ programming, having worked on a variety of projects that involve software development and system optimization. I am confident in my ability to contribute to your team and assist in the development of cutting-edge software solutions. Please find my attached resume for your review. I look forward to the opportunity to discuss my qualifications in more detail.
+Best regards, Sarah Davis",data/resumes/dummy_c___engineer.pdf
+2,applicant5@example.com,Application for NLP Research Engineer Position,"Dear Hiring Team,
+I am excited to apply for the NLP Research Engineer position at your organization. My name is Michael Wilson, and I hold a master's degree in Natural Language Processing. I have practical experience in building NLP models, text classification, and sentiment analysis. My passion for NLP and machine learning drives my desire to contribute to your team's success. My resume is attached for your consideration, and I am available for further discussion regarding how I can add value to your projects.
+Sincerely, Michael Wilson",data/resumes/dummy_ML_Engineer.pdf
+3,applicant6@example.com,Application for NLP Research Scientist Position,"Hello,
+I am writing to express my interest in the NLP Research Scientist position at your company. My name is Laura Anderson, and I hold a Ph.D. in Natural Language Processing. My research has focused on developing advanced NLP algorithms and language models. I am enthusiastic about the opportunity to contribute to innovative research projects at your organization. I have attached my CV for your reference and would welcome the chance to discuss how my expertise aligns with your team's goals.
+Best regards, Laura Anderson",data/resumes/dummy_ML_Scientist.pdf
