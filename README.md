@@ -6,5 +6,6 @@ An NLP project to summarize and select applicants based on the profile and job d
 ![detailed_screen1](images/datailed_screen1.png)
 
 ![detailed_screen2](images/detailed_screen2.png)
+
 ![detailed_screen3](images/detailed_screen3.png)
 
