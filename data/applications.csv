@@ -1,31 +1,42 @@
 application_id,email_id,email_body,resume_path,applicant_name,position_applid,short_summary,consise_summary,rubrics,score
 1,applicant4@example.com,"Dear Hiring Manager,
 I am writing to express my strong interest in the Software Engineer C++ position at your company. My name is Sarah Davis, and I have a solid background in C++ programming, having worked on a variety of projects that involve software development and system optimization. I am confident in my ability to contribute to your team and assist in the development of cutting-edge software solutions. Please find my attached resume for your review. I look forward to the opportunity to discuss my qualifications in more detail.
-Best regards, Sarah Davis",data/resumes/dummy_c___engineer.pdf,Sarah Davis,Software Engineer C++,"Sarah Davis is an experienced Machine Learning Engineer with over 9 years of expertise in Machine Learning, Large Language Models, and MLOps. She has a strong educational background with an MSc in Machine Learning from the University of Nottingham and a B.Tech in Computer Science and Engineering. Sarah has worked on various projects, including implementing Large Language Models and Explainability techniques for model transparency, leading machine learning projects for defect detection and process optimization, and applying ML and NLP to financial datasets. She is proficient in Python, TensorFlow, PyTorch, and Google Cloud technologies.","Education:
+Best regards, Sarah Davis",data/resumes/dummy_c___engineer.pdf,Sarah Davis,Software Engineer C++,"Summary: Sarah Davis is an experienced Software Engineer with a focus on C++, holding a B.Tech in Computer Science and Engineering. She has a proven track record of successful project delivery within deadlines and has worked in both the financial and defense sectors. Sarah is skilled in object-oriented programming, data structures and algorithms, and the software development life cycle. She has collaborated with cross-functional teams, conducted code reviews, and provided technical support during application deployment.","Education:
 ---------
-MSc in Machine Learning, University of Nottingham, United Kingdom 2022 - 2023
-B.Tech in Computer Science and Engineering, JNTU, India 2008 - 2012
+B.Tech in Computer Science and Engineering from JNTU, India (2008-2012)
 
 Projects:
 --------
-Transformer and Explainable AI Git Repo: link - Developed a Transformer encoder from scratch using Advanced TensorFlow to implement the explainability algorithm Integrated Gradients.
-ML from scratch Git Repo: link - Designed and implemented Neural Networks, Linear Regression, K-means clustering, and K-nearest neighbors (KNN) algorithms from scratch in vectorized form.
+Real-Time 3D Simulation Software:
+- Led the development of a C++ application for real-time 3D simulations, enhancing the training capabilities for defense personnel.
+- Implemented advanced graphics rendering techniques and optimized algorithms for real-time performance.
+- Collaborated with a team of engineers to integrate hardware interfaces, ensuring seamless interaction with simulation devices.
+
+Financial Data Analysis Tool:
+- Developed a data analysis tool in C++ for financial data processing, allowing users to analyze large datasets efficiently.
+- Implemented algorithms for statistical analysis and visualization, providing insights into market trends and investment opportunities.
+- Designed a user-friendly interface, facilitating ease of use for financial analysts and traders.
 
 Work Experience:
 ----------------
-NLP Research Assistant, University of Nottingham, United Kingdom Feb 2023 - Present - Collaborated on a research project applying Large Language Models (LLMs) and Explainability to predict customer default probabilities in finance.
-Senior Machine Learning Engineer, Micron Technology, India Dec 2021 – Sep 2022 - Led machine learning projects end-to-end for defect detection and process optimization in semiconductor manufacturing.
-Senior Machine Learning Engineer, HSBC Technology, India Aug 2015 – Dec 2021 - Applied ML and NLP to financial datasets, led development teams and engaged with stakeholders.
-Software Engineer, Data Analytics, Ebix, India Jun 2013 – Aug 2015 - Worked as a data warehouse and BI developer for Tata Teleservices Ltd.","{
+Software Engineer at XYZ Tech, USA (Oct 2022 - Present):
+- Collaborated with a team to design and implement new features for a critical C++ application in the financial sector, ensuring robustness and performance.
+- Conducted code reviews, identified areas for optimization, and implemented enhancements to improve application efficiency.
+- Worked closely with stakeholders to gather requirements and provided technical support during application deployment.
+
+Senior C++ Developer at ABC Solutions, USA (Jan 2019 - Sep 2022):
+- Led the development of a real-time simulation software using C++ for training purposes in the defense sector.
+- Designed and implemented multi-threaded systems to handle complex simulations, optimizing performance and responsiveness.
+- Collaborated with cross-functional teams to integrate third-party libraries, ensuring compatibility and reliability.","{
   ""First extract number of years of working experince candidate have, and anwer if candidate have 5 or more years of work experience as software engineer, answer only 'Yes' or 'No'."": ""No"",
-  ""Is candidate familiar with c++?"": ""No"",
+  ""Is candidate familiar with c++?"": ""Yes"",
   ""Does candidate have communication and collaboration skills?"": ""Yes"",
-  ""Have experience in OOP (Object Oriented Programming)?"": ""No"",
-  ""Does candidate have Bachelor’s degree?"": ""No"",
-  ""Have knowledge of software version control tools like git?"": ""Yes"",
+  ""Have experience in OOP (Object Oriented Programming)?"": ""Yes"",
+  ""Does candidate have Bachelor’s degree?"": ""Yes"",
+  ""Have knowledge of software version control tools like git?"": ""No"",
   ""Does cnadidate possess experience with Linux operating system?"": ""No"",
-  ""Does candidate have good data structures and algorithm knowledge?"": ""No""
-}",0.25
+  ""Does candidate have good data structures and algorithm knowledge?"": ""Yes""
+}",0.625
 2,applicant5@example.com,"Dear Hiring Team,
 I am excited to apply for the NLP Research Engineer position at your organization. My name is Michael Wilson, and I hold a master's degree in Natural Language Processing. I have practical experience in building NLP models, text classification, and sentiment analysis. My passion for NLP and machine learning drives my desire to contribute to your team's success. My resume is attached for your consideration, and I am available for further discussion regarding how I can add value to your projects.
 Sincerely, Michael Wilson",data/resumes/dummy_ML_Engineer.pdf,Michael Wilson,NLP Research Engineer,"Michael Wilson is an experienced Machine Learning Engineer with over 9 years of expertise in Machine Learning, Large Language Models, and MLOps. He has a strong educational background with an MSc in Machine Learning from the University of Nottingham and a B.Tech in Computer Science and Engineering. Michael has worked on various projects, including implementing Large Language Models and Explainability techniques for model transparency, leading machine learning projects for defect detection and process optimization, and applying ML and NLP to financial datasets. He is proficient in Python, TensorFlow, PyTorch, and Google Cloud technologies.","Education:
@@ -59,33 +70,33 @@ Software Engineer, Data Analytics, Ebix, India Jun 2013 – Aug 2015 - Worked as
 }",1.0
 3,applicant6@example.com,"Hello,
 I am writing to express my interest in the NLP Research Scientist position at your company. My name is Laura Anderson, and I hold a Ph.D. in Natural Language Processing. My research has focused on developing advanced NLP algorithms and language models. I am enthusiastic about the opportunity to contribute to innovative research projects at your organization. I have attached my CV for your reference and would welcome the chance to discuss how my expertise aligns with your team's goals.
-Best regards, Laura Anderson",data/resumes/dummy_ML_Scientist.pdf,Laura Anderson,NLP Research Scientist,"Laura Anderson is an experienced Machine Learning Engineer with over 9 years of expertise in Machine Learning, Large Language Models, and MLOps. She has a strong educational background with an MSc in Machine Learning from the University of Nottingham and a B.Tech in Computer Science and Engineering. Laura has worked on various projects, including implementing Large Language Models and Explainability techniques for model transparency, leading machine learning projects for defect detection and process optimization, and applying ML and NLP to financial datasets. She is proficient in Python, TensorFlow, PyTorch, and Google Cloud technologies.","Education:
+Best regards, Laura Anderson",data/resumes/dummy_ML_Scientist.pdf,Laura Anderson,NLP Research Scientist,"Laura Anderson is an experienced Machine Learning Scientist with over 8 years of expertise in machine learning research, model development, and deployment. She holds a Ph.D. in Computer Science from Stanford University and has a strong background in deep learning, natural language processing, and model development. Laura has worked at top-tier companies such as DeepMind and OpenAI, where she conducted cutting-edge research and contributed to the development of state-of-the-art models. She is proficient in Python, Big Data technologies, and cloud platforms.","Education:
 ---------
-MSc in Machine Learning, University of Nottingham, United Kingdom 2022 - 2023
-B.Tech in Computer Science and Engineering, JNTU, India 2008 - 2012
+Ph.D. in Computer Science, Stanford University, USA
+MSc in Machine Learning, University of Cambridge, UK
+BSc in Computer Science, MIT, USA
 
 Projects:
 --------
-Transformer and Explainable AI Git Repo: link - Developed a Transformer encoder from scratch using Advanced TensorFlow to implement the explainability algorithm Integrated Gradients.
-ML from scratch Git Repo: link - Designed and implemented Neural Networks, Linear Regression, K-means clustering, and K-nearest neighbors (KNN) algorithms from scratch in vectorized form.
+Deep Reinforcement Learning for Game AI - Led a team to develop deep reinforcement learning models for game AI, achieving superior performance in strategy games.
+Natural Language Processing for Medical Record Summarization - Developed an NLP model to automatically summarize medical records, improving efficiency in healthcare data analysis.
 
 Work Experience:
 ----------------
-NLP Research Assistant, University of Nottingham, United Kingdom Feb 2023 - Present - Collaborated on a research project applying Large Language Models (LLMs) and Explainability to predict customer default probabilities in finance.
-Senior Machine Learning Engineer, Micron Technology, India Dec 2021 – Sep 2022 - Led machine learning projects end-to-end for defect detection and process optimization in semiconductor manufacturing.
-Senior Machine Learning Engineer, HSBC Technology, India Aug 2015 – Dec 2021 - Applied ML and NLP to financial datasets, led development teams and engaged with stakeholders.
-Software Engineer, Data Analytics, Ebix, India Jun 2013 – Aug 2015 - Worked as a data warehouse and BI developer for Tata Teleservices Ltd.","{
-  ""First extract number of years of working experince candidate have, and anwer if candidate have 5 or more years of work experience as machine learning engineer, answer only 'Yes' or 'No'."": ""Yes"",
-  ""Is candidate familiar with Python, Java, and R?"": ""Yes"",
-  ""Does candidate have communication and collaboration skills?"": ""Yes"",
-  ""Have experience in building machine learning systems?"": ""Yes"",
-  ""Does candidate have phD level education?"": ""No"",
-  ""Have knowledge of machine learning frameworks, like Keras, Tensorflow or PyTorch?"": ""Yes"",
-  ""Does cnadidate possess extensive math and computer skills, with a deep understanding of probability, statistics, and algorithms?"": ""Yes"",
-  ""Have experience in training, retraining, and monitoring machine learning systems and models as needed?"": ""Yes"",
-  ""Have experience in building machine leanrign pipelines?"": ""Yes"",
-  ""Have experience in deploying machine leanrign applications to production?"": ""Yes"",
-  ""Any experience with large language models (LLMs) or transfomers?"": ""Yes"",
-  ""Have experience with natural language processing (NLP)?"": ""Yes"",
-  ""Are there any research publications or scientific publications?"": ""No""
-}",0.8461538461538461
+Machine Learning Scientist, DeepMind, London, UK - Conducting cutting-edge research in deep learning and reinforcement learning. Developing novel machine learning algorithms for complex problem domains. Collaborating with cross-functional teams to integrate machine learning models into production systems.
+Research Scientist, OpenAI, San Francisco, USA - Contributed to the development of state-of-the-art natural language processing models. Published research papers in top-tier machine learning conferences. Collaborated with external research partners to advance the field of artificial intelligence.
+Machine Learning Engineer, IBM Research, New York, USA - Implemented machine learning algorithms for data analysis and pattern recognition. Developed predictive models for various industries, including healthcare and finance. Collaborated with clients to understand their business needs and provided customized machine learning solutions.","{
+  ""First extract number of years of working experince candidate have, and anwer if candidate have 5 or more years of work experience as machine learning engineer, answer only 'Yes' or 'No'."" : ""Yes"",
+  ""Is candidate familiar with Python, Java, and R?"" : ""Yes"",
+  ""Does candidate have communication and collaboration skills?"" : ""Yes"",
+  ""Have experience in building machine learning systems?"" : ""Yes"",
+  ""Does candidate have phD level education?"" : ""Yes"",
+  ""Have knowledge of machine learning frameworks, like Keras, Tensorflow or PyTorch?"" : ""Yes"",
+  ""Does cnadidate possess extensive math and computer skills, with a deep understanding of probability, statistics, and algorithms?"" : ""Yes"",
+  ""Have experience in training, retraining, and monitoring machine learning systems and models as needed?"" : ""Yes"",
+  ""Have experience in building machine leanrign pipelines?"" : ""No"",
+  ""Have experience in deploying machine leanrign applications to production?"" : ""No"",
+  ""Any experience with large language models (LLMs) or transfomers?"" : ""No"",
+  ""Have experience with natural language processing (NLP)?"" : ""Yes"",
+  ""Are there any research publications or scientific publications?"" : ""Yes""
+}",0.7692307692307693

@@ -4,7 +4,7 @@ import os
 class Summarizer():
     def __init__(self, model="gpt-3.5-turbo"):
         self.model = model
-        self.chaitanyamanem = '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'
+        self.chaitanyamanem = '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'
         self.client = OpenAI(
             api_key=self.chaitanyamanem
             )        

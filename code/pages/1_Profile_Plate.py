@@ -26,6 +26,8 @@ def display_application_details_page():
         st.markdown(f"#### Candidate Score: {round(selected_row['score'],2)}")
         st.markdown(f"#### Short Summary:\n{selected_row['short_summary']}")
         st.markdown(f"#### Summary:\n{selected_row['consise_summary']}")
+        rubrics = selected_row['rubrics'].replace('{\n  "First extract number of years of working experince candidate have, and anwer if ','').replace('}','')
+        st.write(f"#### Rubrics:\n{rubrics}")
     else:
         st.info("Select an Application ID to view details.")
 
