@@ -9,7 +9,8 @@ This repository contains an automated LLM-based system designed to streamline th
 
 ## Objective
 
-The primary objective of this system is to automate the extraction and summarization of relevant information from applicant emails, providing a convenient and efficient solution for human resources and recruitment teams. The system aims to enhance both the speed and accuracy of the candidate evaluation process, with a particular emphasis on their education and relevant projects.
+- The primary objective of this system is to leverage the existing LLMs (Large Language Models) and quickly identify the most suitable candidates for each job position based on the attached resume. The candidate profile that best matches the job description receives a higher match score.
+- The success criteria of the application are defined as follows: the application should be able to identify the position the candidate is applying for from the email application sent to the careers mailbox, generate a concise summary, especially highlighting education and relevant projects/work experience, and generate a score based on the suitability of the candidate to the given job description.
 
 ## Features
 
