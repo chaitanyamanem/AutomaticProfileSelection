@@ -12,10 +12,22 @@ This repository contains an automated LLM-based system designed to streamline th
 - The primary objective of this system is to leverage the existing LLMs (Large Language Models) and quickly identify the most suitable candidates for each job position based on the attached resume. The candidate profile that best matches the job description receives a higher match score.
 - The success criteria of the application are defined as follows: the application should be able to identify the position the candidate is applying for from the email application sent to the careers mailbox, generate a concise summary, especially highlighting education and relevant projects/work experience, and generate a score based on the suitability of the candidate to the given job description.
 
-## Application architecture
-
+## Application Architecture
 
 <img src="images/architecture.png" alt="architecture" width="700" height="400"/>
+
+The application comprises three main components:
+
+1. **User Interface:** 
+    - For the UI, a simple application approach is taken, utilizing Streamlit to integrate the ML application into HTML.
+
+2. **Extracting the Position Applied:**
+    - A RoBERTa model trained on the SQuAD dataset is employed for extractive Question-Answering (QA). The model is trained to predict the start and end tokens in the context given the question.
+
+3. **Generating Summary and Score from the Resume:**
+    - For summaries and score generation, two Large Language Models (LLMs) are utilized: Mistral 7B and GPT 3.5. These models generate answers given the context, and the Retrieval-Augmented Generation (RAG) concept is employed here to obtain the results.
+
+
 
 ## Features
 
@@ -39,10 +51,6 @@ This repository contains an automated LLM-based system designed to streamline th
 - Utilizes the Streamlit framework for a user-friendly and interactive web interface.
 - Provides an intuitive platform for users to input prompts, view parsed information, and assess candidate summaries.
 
-## Implementation
-
-The system is implemented in Python, leveraging powerful libraries and frameworks such as Hugging Face Transformers for BERT and RAG models, PyTorch for machine learning functionalities, and Streamlit for the user interface.
-
 ## How to Use
 
 1. Clone the repository to your local machine.
@@ -50,16 +58,7 @@ The system is implemented in Python, leveraging powerful libraries and framework
 3. Run the Streamlit app using `streamlit run app.py`.
 4. Access the web interface in your browser and follow the instructions to input prompts and evaluate candidate summaries.
 
-## Future Enhancements
-
-- Integration of additional NLP models for improved summarization.
-- Support for a wider range of job positions and prompts.
-- Enhanced user customization and configuration options.
-
-Feel free to explore the codebase, provide feedback, and contribute to further improvements. This system represents a powerful tool for automating candidate evaluation, combining state-of-the-art technologies to meet the demands of modern recruitment processes.
-
-
-
+   for more details refer the documentation
 
 # Results
 
