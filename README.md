@@ -14,7 +14,8 @@ This repository contains an automated LLM-based system designed to streamline th
 
 ## Application architecture
 
-![home_screen](images/architecture.png)
+
+<img src="images/architecture.png" alt="architecture" width="200" height="200"/>
 
 ## Features
 
