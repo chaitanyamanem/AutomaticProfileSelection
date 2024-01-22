@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains an automated system designed to streamline the process of parsing applicant emails, extracting relevant resumes, and generating summaries of each candidate's qualifications. The primary focus is on identifying suitable candidates for specific job positions, such as "Software Engineer C++" or "Deep Learning Engineer." The system utilizes cutting-edge natural language processing and machine learning technologies, including BERT, RAG (Retrieval-Augmented Generation) using GPT 3.5, Streamlit, Hugging Face, and PyTorch.
+This repository contains an automated LLM-based system designed to streamline the process of parsing applicant emails, extracting relevant information from resumes, and generating summaries of each candidate's qualifications. The primary focus is identifying suitable candidates for specific job positions, such as "Software Engineer C++" or "Deep Learning Engineer." The application utilizes cutting-edge natural language processing and machine learning technologies, including Extractive question answering using LLM, RAG (Retrieval-Augmented Generation) using LLM, Streamlit, Hugging Face, Python.
 
 ## Objective
 
